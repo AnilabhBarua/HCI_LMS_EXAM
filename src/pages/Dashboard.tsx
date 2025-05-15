@@ -41,7 +41,7 @@ const Dashboard: React.FC = () => {
         <div className="flex flex-wrap gap-4 mt-4">
           <Button 
             variant="primary" 
-            className="bg-white text-blue-600 hover:bg-blue-50"
+            className="bg- text-blue-600 hover:bg-blue-50"
           >
             Continue Learning
           </Button>

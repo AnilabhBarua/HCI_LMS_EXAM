@@ -2,10 +2,10 @@ import { User, Course, Announcement, Task } from '../types';
 
 export const currentUser: User = {
   id: '1',
-  name: 'Alex Johnson',
-  email: 'alex.johnson@example.com',
+  name: 'Anilabh Barua',
+  email: 'anilabh.barua@gmail.com',
   role: 'student',
-  avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400'
+  avatar: 'https://media.licdn.com/dms/image/v2/D5603AQFIuZ5M8aviYQ/profile-displayphoto-shrink_400_400/B56ZY96rGnGUAo-/0/1744795514236?e=1752710400&v=beta&t=rKijOeGq3cZvbLHMBBzDT6On-fEVRdseSyXvB9iWJ6w'
 };
 
 export const courses: Course[] = [
@@ -13,7 +13,7 @@ export const courses: Course[] = [
     id: '1',
     title: 'Human-Computer Interaction',
     description: 'Learn the fundamentals of designing user-centered interfaces and creating effective user experiences.',
-    instructor: 'Dr. Sarah Miller',
+    instructor: 'Hiren Kumar Deva',
     instructorAvatar: '',
     thumbnail: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     duration: '12 weeks',
@@ -50,7 +50,7 @@ export const courses: Course[] = [
     id: '2',
     title: 'Artificial Intelligence and Machine Learning',
     description: 'Explore the fundamentals of AI and ML, including neural networks, deep learning, and practical applications.',
-    instructor: 'Prof. David Chen',
+    instructor: 'Rupam Bhatacharjee',
     instructorAvatar: '',
     thumbnail: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     duration: '16 weeks',
